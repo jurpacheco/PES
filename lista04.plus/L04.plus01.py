@@ -233,7 +233,7 @@ while True:
             else:
                 print (f'{cores['negrito']}ERRO: {cores['vermelho']}Laboratório não encontrado!{cores['limpa']}')
 #Professores permitidos
-    elif answer == 8:
+   
         
 
 
