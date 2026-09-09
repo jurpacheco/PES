@@ -9,7 +9,7 @@ exiba os números do menor para o maior.'''
 i=0
 numbers = []
 print ("Coloque os 15 números da tabela, sem repeti-las: ")
-while i<0:
+while i<15:
     number= int(input(f'→ '))
     if number >= 1 and number<=75:
         if number in numbers:
@@ -17,9 +17,9 @@ while i<0:
         else:
             numbers.append(number)
             print(f'cadastrado com sucesso!\n')
-    i=1+i
-else:
-    print ("Número menor que 1 ou maior que 75.")
+            i=1+i
+    else:
+        print ("Número menor que 1 ou maior que 75.")
 
 numbers.sort()
 
