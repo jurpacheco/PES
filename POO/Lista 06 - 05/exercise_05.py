@@ -1,0 +1,25 @@
+from class_05 import Pessoa
+
+n = input ("Nome: ")
+i = input ("Idade: ")
+a = float (input("Altura em metros: ") )
+p = float (input("Peso em Kg: "))
+pessoa1= Pessoa(n, i, a, p)
+print(pessoa1.escrevendo())
+print (pessoa1.nome_imc())
+
+n2 = input ("Nome: ")
+i2 = input ("Idade: ")
+a2 = input ("Altura em metros: ") 
+p2 = input ("Peso: ")
+pessoa2= Pessoa(n2, i2, a2, p2)
+print(pessoa2.escrevendo())
+print (pessoa2.nome_imc())
+
+n3 = input ("Nome: ")
+i3 = input ("Idade: ")
+a3 = input ("Altura em metros: ") 
+p3 = input ("Peso: ")
+pessoa3= Pessoa(n3, i3, a3, p3)
+print(pessoa3.escrevendo())
+print (pessoa3.nome_imc())
